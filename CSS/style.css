@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+#navbar1 h1{
+    font-size: 2.3rem;
+    margin-left: 166px;
+    color: white;
+}
+
+#navbar1 p{
+    font-size: 1.5rem;
+    margin-right: 172px;
+    color: teal;
+}
+
+#navbar h1:hover{
+    color: rgb(59, 131, 119);
+}
+
+#navbar1 h1:hover{
+    color: rgb(59, 131, 119);
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar h1{
+    top: 45px;
+    font-size: 2.3rem;
+    color: white;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    font-size: 1.3rem;
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+#navbar ul li a{
+    text-decoration: none; 
+    padding: 3px 10px;
+    color: white;
+}
+
+#navbar ul li a:hover{
+    color: rgb(59, 131, 119);
+}
+
+.intro{
+    margin-top: 70px;
+}
+
+.intro h2{
+    font-size: 1.8rem;
+    padding-bottom: 10px;
+    color: teal;
+    letter-spacing: 0.1rem;
+}
+
+.intro p{
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+    color: white;
+}
+
+#head::before{
+    content: "";
+    background-color: #9bd0f8;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 60%;
+    width: 100%;
+    z-index: -1;
+}
+
+#btn{
+    margin-top: 50px;
+    text-align: center;
+    padding: 23px 53px;
+    border-radius: 20px;
+    background-color:rgb(59, 131, 119);
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: white;
+    color: rgb(59, 131, 119);
+}
+
+.card1 {
+    margin-top: 100px;
+    width: 20%;
+  }
+  
+.card1 img{
+    width: 100%;
+    padding-top: 20px;
+    
+}
+ 
+.card2 {
+    margin-top: 100px;
+    width: 20%;
+  }
+  
+.card2 img{
+    width: 100%;
+    height: 190px;
+    padding-top: 20px;
+    
+}
+
+.card3{
+    margin-top: 100px;
+    width: 20%;
+  }
+  
+.card3 img{
+    width: 100%;
+    height: 190px;
+    padding-top: 20px;
+    
+}
+
+.container{
+    padding-top: 20px;
+}
+  
+.container p{
+    padding-top: 10px;
+}
+
+.container h4:hover{
+    opacity: 0.5;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#foot{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    border: 2px solid  #9bd0f8;
+    background-color:  #9bd0f8;
+    padding-top: 50px;
+    padding-bottom: auto;
+    height: 120px;
+}
+
+.links{
+    display: flex;
+}
+
+.links p{
+    padding-left: 30px;
+}
+
+.links p:hover{
+    color: rgb(59, 131, 119);
+}
